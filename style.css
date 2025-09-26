@@ -1,7 +1,7 @@
-/* body{
+body{
     background-color: black;
     color: white;
-} */
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -44,6 +44,43 @@
 .home ul li{
     display: flex;
     gap: 15px;
-    width: 15px;
+    width: 17px;
     list-style: none;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.heading{
+display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 15px 5px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.heading img{
+    width: 15px;
+}
+
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    flex-wrap: wrap; /* Allow the footer items to wrap onto the next line */
+    word-wrap: break-word; /* Ensure text breaks within the container */
+    position: absolute;
+    bottom: 5px;
+}
+
+.footer a{
+    color: grey;
 }
